@@ -25,7 +25,7 @@ function draw() {
   ground.display();
 
   for(var k =0; k<= 480; k=k+80) {
-    divisions.push(new Ground(k, divisionHeight/2, 10, divisionHeight));
+    divisions.push(new Ground(k, 600, 10, 400));
   }
 
   for(var j = 40; j <= 480; j = j + 50) {
